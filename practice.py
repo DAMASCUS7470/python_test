@@ -1,9 +1,9 @@
-def in_autotests_we_trust(x, y):
-    if x == y:
+def in_autotests_we_trust(p, q):
+    if p == q:
         print('Test passed')
     else:
         print('Test failed')
 
-in_autotests_we_trust(1, True)
+in_autotests_we_trust(1, 1)
 
-in_autotests_we_trust(0, False)
+in_autotests_we_trust(False, 0)
